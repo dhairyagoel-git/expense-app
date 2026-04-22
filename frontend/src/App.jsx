@@ -1,6 +1,6 @@
 import { useState, useEffect, createContext, useContext } from "react";
-
-const API = "http://localhost:5000";
+const API = "https://expense-app-backend-5fh9.onrender.com";
+console.log(API);
 
 // ─── Auth Context ────────────────────────────────────────────────────────────
 const AuthContext = createContext(null);
